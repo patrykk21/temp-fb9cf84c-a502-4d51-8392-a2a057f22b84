@@ -1,4 +1,3 @@
 require_relative 'lib/script'
-require 'securerandom'
 
-puts SecureRandom.uuid
+puts Script.find_reactivations([])
